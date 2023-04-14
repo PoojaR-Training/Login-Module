@@ -10,7 +10,7 @@ const App = () => {
     <View>
       <Text style={{fontSize : 30, marginTop : 50, marginLeft:10}}>Propes Example</Text>
       <Text style={{fontSize : 20, marginTop : 20, textAlign: "center", backgroundColor :"orange"}}>Parent Component</Text>
-      <User name={name}/> 
+      <User name={name} age={22}/> 
       <Button title='Change Name' color={"green"} onPress={updateName}/> 
     </View>
     
