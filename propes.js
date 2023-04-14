@@ -24,7 +24,3 @@ const User =(propes)=>{
     </View>
   )
 }
-
-
-
-export default App;

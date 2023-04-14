@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import {View, Text, StyleSheet,Button} from 'react-native';
 
-const App = () => {
+const state = () => {
   const [name,setname]= useState("First Name",)
   let data = "abc";
   const updateName = () => {
@@ -19,17 +19,5 @@ const App = () => {
   );
 };
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#fff',
-  },
-  title: {
-    fontSize: 35,
-    fontWeight: 'bold',
-  },
-});
 
-export default App;
+export default state;
